@@ -1,0 +1,1 @@
+savedcmd_/home/roy/driver/ak7755/ak7755.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/roy/driver/ak7755/ak7755.ko /home/roy/driver/ak7755/ak7755.o /home/roy/driver/ak7755/ak7755.mod.o /home/roy/driver/ak7755/.module-common.o

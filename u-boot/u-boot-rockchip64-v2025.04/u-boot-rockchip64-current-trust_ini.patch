@@ -1,0 +1,34 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: John Doe <john.doe@somewhere.on.planet>
+Date: Fri, 9 May 2025 01:36:59 +0000
+Subject: Patching u-boot rockchip64 files trust.ini
+
+Signed-off-by: John Doe <john.doe@somewhere.on.planet>
+---
+ trust.ini | 15 ++++++++++
+ 1 file changed, 15 insertions(+)
+
+diff --git a/trust.ini b/trust.ini
+new file mode 100755
+index 00000000000..8cd7b97683f
+--- /dev/null
++++ b/trust.ini
+@@ -0,0 +1,15 @@
++[VERSION]
++MAJOR=1
++MINOR=0
++[BL30_OPTION]
++SEC=0
++[BL31_OPTION]
++SEC=1
++PATH=bl31.elf
++ADDR=0x10000
++[BL32_OPTION]
++SEC=0
++[BL33_OPTION]
++SEC=0
++[OUTPUT]
++PATH=trust.bin
+-- 
+Created with Armbian build tools https://github.com/armbian/build
+

@@ -18,3 +18,7 @@ KERNELPATCHDIR="kernel-xl-wzb211"
 
 #KERNEL_GIT=shallow
 KERNEL_GIT=full
+
+# add application package
+PACKAGE_LIST_ADD="squeezelite"
+#PACKAGE_LIST_REMOVE=""

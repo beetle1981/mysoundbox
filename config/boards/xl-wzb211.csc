@@ -12,7 +12,7 @@ ASOUND_STATE="asound.state.rt5651"
 BOOTBRANCH_BOARD="tag:v2025.04"
 BOOTPATCHDIR="u-boot-rockchip64-v2025.04"
 #BOOTPATCHDIR="none"
-KERNELPATCHDIR="kernel-xl-wzb211-6.12"
+KERNELPATCHDIR="kernel-xl-wzb211"
 #KERNELBRANCH="tag:v6.12"
 
 
